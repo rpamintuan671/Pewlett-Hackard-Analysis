@@ -66,3 +66,41 @@ ORDER BY COUNT DESC;
 
 -- Preview retiring_titles table
 SELECT * FROM retiring_titles;
+
+-- Deliverable 2: The Employees Eligible for the Mentorship Program table that holds current employees who were born between January 1, 1965 and December 31, 1965.
+-- Retrieve columns from Employees and Department employee tables. Join tables.
+
+-- First create Dept_emp table
+CREATE TABLE dept_emp (
+emp_no INT NOT NULL,
+  dept_no VARCHAR(4) NOT NULL,
+  from_date DATE NOT NULL,
+  to_date DATE NOT NULL,
+  FOREIGN KEY (emp_no) REFERENCES employees (emp_no),
+  PRIMARY KEY (emp_no, dept_no)
+);
+SELECT * FROM dept_emp
+
+-- Create "mentorship_eligiibility" table
+SELECT DISTINCT ON (e.emp_no) 
+	e.emp_no,
+    e.first_name,
+    e.last_name,
+    e.birth_date,
+    de.from_date,
+    de.to_date,
+    t.title
+INTO mentorship_eligibility
+FROM employees as e
+LEFT JOIN dept_emp as de
+ON (e.emp_no = de.emp_no)    
+LEFT JOIN titles as t
+ON (e.emp_no = t.emp_no)  
+WHERE (e.birth_date BETWEEN '1965-01-01' AND '1965-12-31')
+    AND (de.to_date = '9999-01-01')
+ORDER BY e.emp_no
+
+-- View mentorship_eligibility table
+SELECT * FROM mentorship_eligibility;
+
+
