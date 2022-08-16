@@ -5,6 +5,6 @@ Every large employers such as Pwelett-Hackard must prepare for outgoing retirees
 
 
 ## Resources
-* **Data Source**: employees.csv, Titles.csv, departments.csv, dept_managers.csv, salaries.csv, titles.csv
+* **Data Source**:[employees.csv](Data/employees.csv), [Titles.csv](https://github.com/rpamintuan671/Pewlett-Hackard-Analysis/blob/276666358959c2bad7c02a70e1f938b8f43128a3/Data/titles.csv), departments.csv](Data/departments.csv), [dept_managers.csv](Data/dept_manager.csv), [salaries.csv](Data/salaries.csv)
 * **Relational Database Management System**: PostgreSQl, pgAdmin
 * **Entity Relationship Diagram (ERD) Tool**: Quick Database Diagram
