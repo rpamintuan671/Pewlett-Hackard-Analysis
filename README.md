@@ -23,6 +23,7 @@ A Unique Titles table below was also created to provide updated current employee
 The third table was created to count the number of retiring employees group by titles. There are total of 90,398 employees who are eligible to retire and majority of them have senior level position. 
 
 See Retiring titles table below.
+
 ![Retiring Titles](retiring_titles.png)
 
 
