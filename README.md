@@ -5,6 +5,6 @@
 
 
 ## Resources
->* Data Source: employees.csv, Titles.csv, departments.csv, dept_managers.csv, salaries.csv, titles.csv
->* Relational Database Management System: PostgreSQl, pgAdmin
->* Entity Relationship Diagram (ERD) Tool: Quick Database Diagram
+* **Data Source**: employees.csv, Titles.csv, departments.csv, dept_managers.csv, salaries.csv, titles.csv
+* **Relational Database Management System**: PostgreSQl, pgAdmin
+* **Entity Relationship Diagram (ERD) Tool**: Quick Database Diagram
