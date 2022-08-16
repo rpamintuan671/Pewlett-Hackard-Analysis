@@ -21,10 +21,27 @@ A Unique Titles table below was also created to provide updated current employee
 ![Unique Titles](unique_titles.png)
 
 The third table was created to count the number of retiring employees group by titles. There are total of 90,398 employees who are eligible to retire and majority of them have senior level position. 
+
+See Retiring titles table below.
 ![Retiring Titles](retiring_titles.png)
 
 
 ## **Delivery 2: Create a Mentorship Eligibility table for current employees who were born between January 1, 1965 and December 31, 1965.**
-This table will be utilize by upper level management to create a mentorship program which will help the transitions of outgoing employees.
+This table will be utilize by upper level management to create a mentorship program which will help the transitions of outgoing employees to avoid production interuption. 
 
+![Mentorship Eligibility](mentorship_eligibility.png)
+
+## **Summary:**
+   - **How many roles will need to be filled as the "_silver tsunami_" begins to make an impact?**
+   There are total of 90,398 employees who are eligible to retire soon. This will highly impact the Pewlett-Hackard's production line if not planned correctly. See retiring Titles table above.
+![Retiring Title Query](Retiring_titles_query.png)
+
+
+
+- **Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?**
+Yes, there are total of 1,549 retiring employees who are eligible for the mentorship program. The mentors will need to take on a group of mentees in order for this work. We can call these mentors as team lead.
+![Mentorship Eligibility Query](Mentorship_eligibility_query.png)
+
+- **Additional insight:** The amount of employees who are eligible to retire will be a huge impact of the total workforce of Pewlett-Hackard if they all retire at the same time. We do know that there is also a large number of eligible employees who can be part of the mentorship program. The only question is how many would stay or agree to mentor the incoming or current employees. Should Pewlett-Harckard offer incentives to those employees who are willing to be part of the mentorship program? 
+   
 
